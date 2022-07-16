@@ -13,8 +13,6 @@ import java.util.List;
 class Solution {
     public int removeElement(int[] nums, int val) {
         int sum=0;
-        List<Integer> list1 = new ArrayList<Integer>();
-
         for (int i = 0; i < nums.length; i++) {
             if(nums[i]!=val){
                 nums[sum]=nums[i];
